@@ -4,3 +4,7 @@ $('.man-carysel').slick({
 $('.biography-carousel').slick({
     dots:true
 });
+$('.news-carusel').slick({
+    dots:true,
+    vertical:true
+});

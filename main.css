@@ -652,7 +652,7 @@ p{
     width: 70%;
 }
 .slick-arrow:before{
-    color:  #19bd9a;
+    color:  transparent;
 }
 .slick-dots li{
     width: 4px;
@@ -742,7 +742,68 @@ p{
     margin-top: 10px;
     font-size: 15px;
 }
-.slick-initialized .slick-slide
+.biography-carousel.slick-initialized .slick-slide
 {
     display: flex;
+}
+.section-news{
+    background: url("img/backgr-doc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.text-news-top{
+    padding-top: 80px;
+    color: white;
+}
+.text-title-news{
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.text-news-down{
+    margin:126px 0px 0px  70px;
+}
+.t-text{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.by-name{
+    color: #72767d;
+    text-transform: uppercase;
+    padding-bottom:20px ;
+}
+.by-name span{
+    color: #19bd9a;
+}
+.seens{
+    color: #464646;
+    padding-bottom: 62px;
+}
+.text-descr{
+    color: #81868e;
+    width: 650px;
+    line-height: 20px;
+    padding-bottom: 80px;
+}
+.read-more{
+    color: #a8a9a9;
+}
+.text-description-text.news-text{
+    width: 400px;
+}
+.news-carusel.slick-initialized .slick-slide {
+    display: block;
+}
+.news-carusel .slick-dots{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    bottom: 35%;
+}
+.section-our-price{
+    background-color: #f3f3f3;
+    padding-top: 80px;
 }
