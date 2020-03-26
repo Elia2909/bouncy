@@ -805,5 +805,66 @@ p{
 }
 .section-our-price{
     background-color: #f3f3f3;
-    padding-top: 80px;
+    padding: 80px 120px 100px 120px;
 }
+.premium-text{
+    background-color: #19bd9a;
+}
+.block-price{
+    display: flex;
+}
+.text-in-blue{
+    text-align: center;
+    padding: 70px 0px 0px 66px;
+
+}
+.premium-text{
+    padding: 30px 100px 30px 100px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.price-block{
+    padding: 105px 105px;
+    background-color: white;
+    font-size: 25px;
+    color: #19bd9a;
+}
+.under-price{
+    color: #7f7f7f;
+}
+.price-block-list{
+    line-height: 25px;
+    display: flex;
+    text-align: left;
+    padding: 63px 93px;
+    background-color: white;
+    color: #7f7f7f;
+}
+.section-subscribe-us{
+    background: url("img/back-subscri.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe-us-container .section-title{
+    color: white;
+}
+.subscribe-us-container{
+    padding-top: 50px ;
+}
+.email input{
+    background: transparent;
+}.email{
+    display: flex;
+    justify-content: center;
+    padding:  65px 0px 0px 0px;
+ }
+ input {
+     padding: 10px 150px 10px 20px;
+     border: 0.5px solid #7f7f7f;
+ }
+ button{
+     padding: 10px 40px;
+     background-color: #19bd9a;
+     border: 1px solid #19bd9a;
+ }
