@@ -465,7 +465,7 @@ p{
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
+    bottom: 4px;
     background: rgba(0,0,0,.8);
     display: flex;
     justify-content: center;
@@ -488,6 +488,7 @@ p{
     justify-content: flex-start;
     font-size: 20px ;
 }
+
 .text-titiel:after{
     content: '';
     position: absolute;
@@ -499,7 +500,7 @@ p{
     bottom: -22px;
 }
 .text-sm{
-    margin: 0px 42px;
+    margin: 0px 0px 0px 30px
 }
 .text-description{
     width: 180px;
@@ -838,13 +839,14 @@ p{
 .under-price{
     color: #7f7f7f;
 }
-.price-block-list{
+.price-block.list{
     line-height: 25px;
     display: flex;
     text-align: left;
-    padding: 60px 82px;
     background-color: white;
+    padding: 47px 84px;
     color: #7f7f7f;
+    font-size: 15px;
     width: 150px;
 }
 .section-subscribe-us{
