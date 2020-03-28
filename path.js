@@ -1,10 +1,13 @@
 $('.man-carysel').slick({
-    dots:true
+    dots:true,
+    arrows:false
 });
 $('.biography-carousel').slick({
-    dots:true
+    dots:true,
+    arrows:false
 });
 $('.news-carusel').slick({
     dots:true,
-    vertical:true
+    vertical:true,
+    arrows:false
 });
