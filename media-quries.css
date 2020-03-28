@@ -1,0 +1,8 @@
+@media (max-width: 1200px) {
+    .portfolio-img-collums:nth-child(2n){
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
