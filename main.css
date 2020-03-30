@@ -161,6 +161,7 @@ header{
     text-transform: uppercase;
 }
 .section-description{
+    display: flex;
     text-align: center;
     color: #81868e;
 }

@@ -219,8 +219,6 @@
     .background-product-market .background-hover{
         font-size: 15px;
     }
-}
-@media screen and (max-width: 360px){
     .line{
         width: 280px;
     }
@@ -233,6 +231,9 @@
     .man-pictures{
         margin-left: 20px;
     }
+}
+@media screen and (max-width: 360px){
+
 }
 @media screen and (max-width: 340px) {
     .monitor-img img {
