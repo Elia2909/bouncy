@@ -232,9 +232,7 @@
         margin-left: 20px;
     }
 }
-@media screen and (max-width: 360px){
 
-}
 @media screen and (max-width: 340px) {
     .monitor-img img {
         max-width: 150px;

@@ -161,8 +161,8 @@ header{
     text-transform: uppercase;
 }
 .section-description{
-    display: flex;
     text-align: center;
+    justify-content: center;
     color: #81868e;
 }
 .bouncy-icon{
